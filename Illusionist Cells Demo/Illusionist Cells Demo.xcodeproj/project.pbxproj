@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		414CDED51FFA15AF00A6E186 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 414CDED41FFA15AF00A6E186 /* AppDelegate.m */; };
+		414CDEDD1FFA15AF00A6E186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 414CDEDC1FFA15AF00A6E186 /* Assets.xcassets */; };
+		414CDEE31FFA15AF00A6E186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 414CDEE21FFA15AF00A6E186 /* main.m */; };
+		414CDEEA1FFA15D600A6E186 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 414CDEE91FFA15D600A6E186 /* Launch Screen.storyboard */; };
+		414CDEED1FFA188000A6E186 /* IllusionistCellsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 414CDEEC1FFA188000A6E186 /* IllusionistCellsTableViewController.m */; };
+		414CDEF01FFA18C600A6E186 /* ExampleDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 414CDEEF1FFA18C600A6E186 /* ExampleDataSource.m */; };
+		414CDEF31FFA18F300A6E186 /* ParentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 414CDEF21FFA18F300A6E186 /* ParentTableViewCell.m */; };
+		414CDEF61FFA18FE00A6E186 /* ChildTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 414CDEF51FFA18FE00A6E186 /* ChildTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		414CDED01FFA15AF00A6E186 /* Illusionist Cells Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Illusionist Cells Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		414CDED31FFA15AF00A6E186 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		414CDED41FFA15AF00A6E186 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		414CDEDC1FFA15AF00A6E186 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		414CDEE11FFA15AF00A6E186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		414CDEE21FFA15AF00A6E186 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		414CDEE91FFA15D600A6E186 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		414CDEEB1FFA188000A6E186 /* IllusionistCellsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IllusionistCellsTableViewController.h; sourceTree = "<group>"; };
+		414CDEEC1FFA188000A6E186 /* IllusionistCellsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IllusionistCellsTableViewController.m; sourceTree = "<group>"; };
+		414CDEEE1FFA18C600A6E186 /* ExampleDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleDataSource.h; sourceTree = "<group>"; };
+		414CDEEF1FFA18C600A6E186 /* ExampleDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleDataSource.m; sourceTree = "<group>"; };
+		414CDEF11FFA18F300A6E186 /* ParentTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParentTableViewCell.h; sourceTree = "<group>"; };
+		414CDEF21FFA18F300A6E186 /* ParentTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParentTableViewCell.m; sourceTree = "<group>"; };
+		414CDEF41FFA18FE00A6E186 /* ChildTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChildTableViewCell.h; sourceTree = "<group>"; };
+		414CDEF51FFA18FE00A6E186 /* ChildTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChildTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		414CDECD1FFA15AF00A6E186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		414CDEC71FFA15AF00A6E186 = {
+			isa = PBXGroup;
+			children = (
+				414CDED21FFA15AF00A6E186 /* Illusionist Cells Demo */,
+				414CDED11FFA15AF00A6E186 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		414CDED11FFA15AF00A6E186 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				414CDED01FFA15AF00A6E186 /* Illusionist Cells Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		414CDED21FFA15AF00A6E186 /* Illusionist Cells Demo */ = {
+			isa = PBXGroup;
+			children = (
+				414CDED31FFA15AF00A6E186 /* AppDelegate.h */,
+				414CDED41FFA15AF00A6E186 /* AppDelegate.m */,
+				414CDEEE1FFA18C600A6E186 /* ExampleDataSource.h */,
+				414CDEEF1FFA18C600A6E186 /* ExampleDataSource.m */,
+				414CDEEB1FFA188000A6E186 /* IllusionistCellsTableViewController.h */,
+				414CDEEC1FFA188000A6E186 /* IllusionistCellsTableViewController.m */,
+				414CDEF11FFA18F300A6E186 /* ParentTableViewCell.h */,
+				414CDEF21FFA18F300A6E186 /* ParentTableViewCell.m */,
+				414CDEF41FFA18FE00A6E186 /* ChildTableViewCell.h */,
+				414CDEF51FFA18FE00A6E186 /* ChildTableViewCell.m */,
+				414CDEDC1FFA15AF00A6E186 /* Assets.xcassets */,
+				414CDEE91FFA15D600A6E186 /* Launch Screen.storyboard */,
+				414CDEE11FFA15AF00A6E186 /* Info.plist */,
+				414CDEE21FFA15AF00A6E186 /* main.m */,
+			);
+			path = "Illusionist Cells Demo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		414CDECF1FFA15AF00A6E186 /* Illusionist Cells Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 414CDEE61FFA15AF00A6E186 /* Build configuration list for PBXNativeTarget "Illusionist Cells Demo" */;
+			buildPhases = (
+				414CDECC1FFA15AF00A6E186 /* Sources */,
+				414CDECD1FFA15AF00A6E186 /* Frameworks */,
+				414CDECE1FFA15AF00A6E186 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Illusionist Cells Demo";
+			productName = "Illusionist Cells Demo";
+			productReference = 414CDED01FFA15AF00A6E186 /* Illusionist Cells Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		414CDEC81FFA15AF00A6E186 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Andres Valdez";
+				TargetAttributes = {
+					414CDECF1FFA15AF00A6E186 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 414CDECB1FFA15AF00A6E186 /* Build configuration list for PBXProject "Illusionist Cells Demo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 414CDEC71FFA15AF00A6E186;
+			productRefGroup = 414CDED11FFA15AF00A6E186 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				414CDECF1FFA15AF00A6E186 /* Illusionist Cells Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		414CDECE1FFA15AF00A6E186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				414CDEEA1FFA15D600A6E186 /* Launch Screen.storyboard in Resources */,
+				414CDEDD1FFA15AF00A6E186 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		414CDECC1FFA15AF00A6E186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				414CDEF61FFA18FE00A6E186 /* ChildTableViewCell.m in Sources */,
+				414CDEE31FFA15AF00A6E186 /* main.m in Sources */,
+				414CDEF01FFA18C600A6E186 /* ExampleDataSource.m in Sources */,
+				414CDEED1FFA188000A6E186 /* IllusionistCellsTableViewController.m in Sources */,
+				414CDED51FFA15AF00A6E186 /* AppDelegate.m in Sources */,
+				414CDEF31FFA18F300A6E186 /* ParentTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		414CDEE41FFA15AF00A6E186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		414CDEE51FFA15AF00A6E186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		414CDEE71FFA15AF00A6E186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Illusionist Cells Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redvaldez.Illusionist-Cells-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		414CDEE81FFA15AF00A6E186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Illusionist Cells Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redvaldez.Illusionist-Cells-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		414CDECB1FFA15AF00A6E186 /* Build configuration list for PBXProject "Illusionist Cells Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				414CDEE41FFA15AF00A6E186 /* Debug */,
+				414CDEE51FFA15AF00A6E186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		414CDEE61FFA15AF00A6E186 /* Build configuration list for PBXNativeTarget "Illusionist Cells Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				414CDEE71FFA15AF00A6E186 /* Debug */,
+				414CDEE81FFA15AF00A6E186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 414CDEC81FFA15AF00A6E186 /* Project object */;
+}
