@@ -1,6 +1,8 @@
 # iOS-illusionist-cells
 An iOS PoC for displaying nested table cells.
 
+![Alt text](screenshots/screenshot.png "Illusionist Cells Screenshot")
+
 Originally released on January 1st 12:00AM.
 
 # Method
